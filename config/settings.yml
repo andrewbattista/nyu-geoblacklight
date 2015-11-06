@@ -27,7 +27,7 @@ RESTRICTED_URL: 'http://maps-restricted.nyusdr.net/geoserver/wms'
 TIMEOUT_DOWNLOAD: 16
 
 # (For WMS inspection) timeout and open_timeout parameters for Faraday
-TIMEOUT_WMS: 15
+TIMEOUT_WMS: 100
 
 # Web services shown in tool panel
 WEBSERVICES_SHOWN:
