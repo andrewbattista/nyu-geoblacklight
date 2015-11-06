@@ -4,6 +4,7 @@ gem 'blacklight'
 gem 'geoblacklight'
 gem 'omniauth-nyulibraries', github: 'NYULibraries/omniauth-nyulibraries'
 gem 'figs'
+gem 'mysql2', '~> 0.3.20'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
