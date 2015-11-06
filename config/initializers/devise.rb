@@ -1,5 +1,3 @@
-Figs.load() # Load app secrets into ENV
-
 Devise.setup do |config|
   config.mailer_sender = 'lib-no-reply@nyu.edu'
   require 'devise/orm/active_record'
