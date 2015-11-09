@@ -40,7 +40,11 @@ module Geoblacklight
     def create_download_file
       download = initiate_download
       File.open("#{file_path_and_name}.tmp", 'wb')  do |file|
+        if download.headers['content-type'].include? @options[:content_type]
           file.write download.body
+        else
+          fail Geoblacklight::Exceptions::WrongDownloadFormat
+        end
       end
       File.rename("#{file_path_and_name}.tmp", "#{file_path_and_name}")
       file_name
