@@ -1,5 +1,5 @@
 # Configurable Logo Used for CartoDB export
-APPLICATION_LOGO_URL: 'http://geoblacklight.org/images/geoblacklight-logo.png'
+APPLICATION_LOGO_URL: 'https://geoblacklight.nyusdr.net/images/NYUtorch64.svg'
 
 # CartoDB OneClick Service https://cartodb.com/open-in-cartodb/
 CARTODB_ONECLICK_LINK: 'http://oneclick.cartodb.com/'
