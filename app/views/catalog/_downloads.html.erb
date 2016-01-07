@@ -33,7 +33,7 @@
 
         <% if document.direct_download.present? %>
         <li role="presentation" class="dropdown-header">Archival Copy:</li>
-        <li>
+        <li class="archival-copy">
           <%= link_to(download_text(@document[:dc_format_s]), document.direct_download[:download], 'contentUrl' => document.direct_download[:download], data: { download: 'trigger', download_type: 'direct', download_id: document[:layer_slug_s] }) %>
         </li>
         <% end %>
