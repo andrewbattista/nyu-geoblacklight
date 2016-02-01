@@ -6,7 +6,7 @@ module WmsRewriteConcern
 
   def viewer_endpoint
     if is_nyu_restricted?
-    	'http://ezproxy.library.nyu.edu:2048/login?url=http://maps-restricted.nyusdr.net/geoserver/nyu_sdr/wms?'
+    	'http://ezproxy.library.nyu.edu:2048/login?url=http://maps-restricted.geo.nyu.edu/geoserver/sdr/wms?'
       # replace wms prefix with webauthed proxy
 #     	super.gsub(/.+?(?=\/geoserver)/, Settings.PROXY_URL)
 #      super.prepend(Settings.PROXY_URL)
