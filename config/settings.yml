@@ -20,11 +20,11 @@ METADATA_SHOWN:
   - 'mods'
 
 
-PROXY_URL: 'http://ezproxy.library.nyu.edu:2048/login?url=http://maps-restricted.nyusdr.net'
-RESTRICTED_URL: 'http://maps-restricted.nyusdr.net/geoserver/wms'
+PROXY_URL: 'http://ezproxy.library.nyu.edu:2048/login?url=http://maps-restricted.geo.nyu.edu'
+RESTRICTED_URL: 'http://maps-restricted.geo.nyu.edu/geoserver/wms'
 
 # (For external Download) timeout and open_timeout parameters for Faraday
-TIMEOUT_DOWNLOAD: 16
+TIMEOUT_DOWNLOAD: 30
 
 # (For WMS inspection) timeout and open_timeout parameters for Faraday
 TIMEOUT_WMS: 100
