@@ -79,7 +79,7 @@ class CatalogController < ApplicationController
 
     config.add_facet_field 'solr_year_i', :label => 'Year', :limit => 10, :range => {
       # :num_segments => 6,
-      :assumed_boundaries => [1100, 2015]
+      :assumed_boundaries => [1100, 2016]
       # :segments => true
     }
 
