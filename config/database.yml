@@ -25,3 +25,9 @@ production:
   host: <%= ENV['SQL_HOST'] %>
   port: 3306
   timeout: 5000
+
+test:
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
+  database: db/test.sqlite3
